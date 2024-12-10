@@ -127,7 +127,7 @@ export const DATA = {
           icon: <Icons.globe className="size-3" />,
         },
       ],
-      image: "https://raw.githubusercontent.com/Aayan-Mishra/Images/refs/heads/main/NEO-v1.png",
+      image: "https://raw.githubusercontent.com/Aayan-Mishra/Images/refs/heads/main/1500x500%20(1).png",
       video:
         "",
     },
@@ -153,7 +153,7 @@ export const DATA = {
           icon: <Icons.globe className="size-3" />,
         },
       ],
-      image: "https://raw.githubusercontent.com/Aayan-Mishra/Images/refs/heads/main/API%20(1).png",
+      image: "https://raw.githubusercontent.com/Aayan-Mishra/Images/refs/heads/main/1500x500%20(1).png",
       video: "",
     }
   ],
