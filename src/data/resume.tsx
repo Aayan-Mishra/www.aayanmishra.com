@@ -130,7 +130,7 @@ export const DATA = {
       links: [
         {
           type: "Read More",
-          href: "",
+          href: "https://aayan-mishra.vercel.app/blog/neov",
           icon: <Icons.globe className="size-3" />,
         },
       ],
@@ -156,7 +156,7 @@ export const DATA = {
       links: [
         {
           type: "Read More",
-          href: "",
+          href: "https://aayan-mishra.vercel.app/blog/odysseyxl",
           icon: <Icons.globe className="size-3" />,
         },
       ],
