@@ -30,4 +30,15 @@ After fine-tuning OdysseyXL, I generated some images to compare the fine-tune wi
 
 As we can see. The fine-tune can now better generate faces due to the dataset having high-quality images of faces. OdysseyXL can also add more brighter and natural tones to its subjects and it has better prompt adherence compared to SDXL
 
+You can use OdysseyXL aswell with this code snippet!
+
+```Python
+from diffusers import DiffusionPipeline
+
+pipe = DiffusionPipeline.from_pretrained("Spestly/OdysseyXL-v1")
+
+prompt = "Astronaut in a jungle, cold color palette, muted colors, detailed, 8k"
+image = pipe(prompt).images[0]
+```
+
 So in the end, I learnt alot about SDXL and I now have my own fine-tune of it!
