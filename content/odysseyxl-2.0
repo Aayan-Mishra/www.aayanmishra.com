@@ -1,0 +1,30 @@
+---
+title: "OdysseyXL-2.0"
+publishedAt: "2024-12-13"
+summary: "OdysseyXL-2.0 - OdysseyXL but better"
+---
+
+![Header](https://raw.githubusercontent.com/Aayan-Mishra/Images/refs/heads/main/API%20(1).png)
+
+# OdysseyXL-2.0!
+
+Yesterday I was messing around with OdysseyXL and I noticed that it was really good at generating himan faces but when it tried to generate kandscapes, it did not work as well as I had hoped. As much as I wanted to just forgrt it and move on, but I couldn't so I decided to fine-tune the modle to generate landscapes and scenery with more realism.
+
+I trained OdysseyXL-2.0 on 4 A100 GPUs from Lambda Cloud because in my opinion Lambda provides the cheapest rates for the best GPUs. I used a mixture of public datasets and hand-collected some images. Unlike OdysseyXL 1.0, the new dataset had more scenery and landscapes than pictures of humans.
+
+![2.0](https://raw.githubusercontent.com/Aayan-Mishra/Images/refs/heads/main/disc%20(1).png)
+
+As you can see, the overall quality of OdysseyXL jumped so much that we can compare it to the SOTA FLUX models, specifically FLUX.1 [dev]. While FLUX does have some better generations e.g the clouds. We can see that OdysseyXL 2.0 generated the mountain better.
+The weights of OdysseyXL is now public on my HuggingFace account!
+You can also use the model using this code snippet:
+
+```Python
+from diffusers import DiffusionPipeline
+
+pipe = DiffusionPipeline.from_pretrained("Spestly/OdysseyXL-2.0")
+
+prompt = "Astronaut in a jungle, cold color palette, muted colors, detailed, 8k"
+image = pipe(prompt).images[0]
+```
+
+~ Aayan Mishra (NotSpestly)
