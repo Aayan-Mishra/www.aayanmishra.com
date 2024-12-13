@@ -134,7 +134,7 @@ export const DATA = {
           icon: <Icons.globe className="size-3" />,
         },
       ],
-      image: "https://raw.githubusercontent.com/Aayan-Mishra/Images/refs/heads/main/1500x500%20(1).png",
+      image: "https://raw.githubusercontent.com/Aayan-Mishra/Images/refs/heads/main/NEO-v1.png",
       video:
         "",
     },
@@ -160,16 +160,16 @@ export const DATA = {
           icon: <Icons.globe className="size-3" />,
         },
       ],
-      image: "https://raw.githubusercontent.com/Aayan-Mishra/Images/refs/heads/main/1500x500%20(1).png",
+      image: "https://raw.githubusercontent.com/Aayan-Mishra/Images/refs/heads/main/API%20(1).png",
       video: "",
     },
     {
-      title: "Glacier o1",
+      title: "Glacier-o1",
       href: "",
       dates: "Dec 2024 - Present",
       active: true,
       description:
-        "Glacier o1 is a fine-tune of Alibaba's Marco o1. Glacier is designed to have a similar reasoning pattern to OpenAI's o1",
+        "Glacier-o1 is a fine-tune of Alibaba's Marco o1. Glacier is designed to have a similar reasoning pattern to OpenAI's o1",
       technologies: [
         "Python",
         "Low-Code",
@@ -183,7 +183,7 @@ export const DATA = {
           icon: <Icons.globe className="size-3" />,
         },
       ],
-      image: "https://raw.githubusercontent.com/Aayan-Mishra/Images/refs/heads/main/1500x500%20(1).png",
+      image: "https://raw.githubusercontent.com/Aayan-Mishra/Images/refs/heads/main/disc%20(2).png",
       video:
         "",
     },
