@@ -105,7 +105,7 @@ export const DATA = {
     },
     {
       school: "Sololearn - Python Developer",
-      href: "https://www.sololearn.com/en/learn/courses/python-developer",
+      href: "https://www.sololearn.com/certificates/CC-HIOWA4X8",
       degree: "",
       logoUrl: "/solo.png",
       start: "2023",
