@@ -1,0 +1,48 @@
+---
+title: "OdysseyXL-3.0"
+publishedAt: "2024-12-16"
+summary: "OdysseyXL-3.0 - Pushing the boundaries of realism"
+---
+
+![Header](https://raw.githubusercontent.com/Aayan-Mishra/Images/refs/heads/main/API%20(2).png)
+
+# OdysseyXL-3.0!
+
+When I launched OdysseyXL-2.0, I was proud of how it improved landscape generation while maintaining its ability to create stunning human faces. But as I continued experimenting, I saw room for improvement—particularly in **texture detailing** and **lighting dynamics**. I couldn’t resist diving back in to push the boundaries further, and that’s how **OdysseyXL-3.0** was born.
+
+For this release, I focused on making **everything more vivid, precise, and realistic**. Textures, lighting, and color rendering have all been overhauled to provide better prompt adherence and finer details in every generation.
+
+---
+
+## How I Built OdysseyXL-3.0
+
+To create OdysseyXL-3.0, I leveraged Lambda Cloud's **4 A100 GPUs** again for their exceptional performance and affordability. The key improvements over 2.0 include:
+
+1. **A More Diverse Dataset**: While OdysseyXL-2.0 focused heavily on landscapes, I expanded the dataset for 3.0 with a balance of human portraits, nature scenes, and abstract concepts. 
+2. **Advanced Training Techniques**: I fine-tuned using better noise scheduling and resolution-aware training to improve texture accuracy and dynamic lighting.
+3. **Feedback-Driven Improvements**: User input from OdysseyXL-2.0 was invaluable in shaping the focus for this iteration.
+
+---
+
+![Comparison](https://github.com/Aayan-Mishra/Images/blob/main/1.png)
+
+The results speak for themselves. Compared to OdysseyXL-2.0, this version excels at generating complex textures like fur, metal, and fabric while maintaining lifelike details. When pitted against **FLUX.1 [Dev]**, OdysseyXL-3.0 now holds its own in terms of realism, especially for landscapes and human expressions.
+
+---
+
+## Example Usage  
+
+The model is publicly available on my Hugging Face profile, and integrating it is as simple as ever. Use the code snippet below to generate stunning visuals:
+
+```Python
+from diffusers import DiffusionPipeline
+
+pipe = DiffusionPipeline.from_pretrained("Spestly/OdysseyXL-3.0")
+
+prompt = "A futuristic city skyline at sunset, intricate details, 8k resolution, cinematic"
+image = pipe(prompt).images[0]
+```
+## Final Thoughts
+OdysseyXL-3.0 represents another leap forward for my personal AI projects. I’m incredibly proud of the progress and can’t wait to hear what the community thinks about it. If you’re already experimenting with it, feel free to share your results and feedback!
+
+~ Aayan Mishra (NotSpestly)
