@@ -1,0 +1,104 @@
+---
+title: "Ava-1.5-12B"
+publishedAt: "2024-12-16"
+summary: "Ava-1.5 - Smarter, Stronger and Superior"
+---
+![Header](https://raw.githubusercontent.com/Aayan-Mishra/Images/refs/heads/main/Ava%201.5.png)
+
+# Ava 1.5
+
+Ava 1.5 is a cutting-edge conversational AI model, fine-tuned from Ava 1.0 to deliver exceptional conversational capabilities. Designed to be your go-to AI for engaging, accurate, and context-aware dialogues, Ava 1.5 incorporates updated knowledge and enhanced natural language understanding to provide an unparalleled user experience.
+
+---
+
+## Key Features
+
+- **Enhanced Conversational Skills**: Ava 1.5 demonstrates fluid and human-like dialogue generation with improved contextual understanding.
+- **Updated Knowledge Base**: Trained on the latest datasets, Ava 1.0 ensures responses are relevant and informed.
+- **Multi-Turn Conversation**: Handles complex, multi-turn interactions seamlessly, maintaining coherence and focus.
+- **Personalized Assistance**: Adapts responses based on user preferences and context.
+- **Multilingual Support**: Capable of understanding and responding in multiple languages with high accuracy.
+
+---
+
+## Why Ava 1.5?
+
+Ava 1.5 is built to excel in a wide range of applications:
+
+- **Customer Support**: Provides intelligent, empathetic, and accurate responses to customer queries.
+- **Education**: Acts as an interactive tutor, offering explanations and personalized guidance.
+- **Personal Assistance**: Supports daily tasks, scheduling, and answering general queries with ease.
+- **Creative Collaboration**: Assists with brainstorming, writing, and other creative processes.
+
+---
+
+## Usage
+
+Using Ava 1.5 in your project is straightforward. Here’s a quick setup guide:
+
+### Installation
+
+Ensure you have the necessary libraries and dependencies installed. Use the following command:
+
+```bash
+pip install transformers
+```
+
+### Implementation
+
+Here’s a sample Python script to interact with Ava 1.5:
+
+```python
+# Use a pipeline as a high-level helper
+from transformers import pipeline
+
+pipe = pipeline("text-generation", model="Spestly/Ava-1.5-12B") 
+
+# Load model directly
+from transformers import AutoTokenizer, AutoModelForCausalLM
+
+tokenizer = AutoTokenizer.from_pretrained("Spestly/Ava-1.5-12B")
+model = AutoModelForCausalLM.from_pretrained("Spestly/Ava-1.5-12B")
+```
+
+---
+
+## Training Highlights
+
+Ava 1.5 was fine-tuned with the following enhancements:
+
+1. **Extensive Conversational Dataset**: Leveraging a wide array of open-domain and specialized conversational datasets.
+2. **Knowledge Integration**: Incorporating recent advancements and updates to provide cutting-edge insights.
+3. **Fine-Tuning on Ava 1.0**: Utilizing the powerful Ava 1.0 model to further refine and expand upon the model's ability to perform tasks!
+
+
+---
+
+## Limitations
+
+- **Contextual Challenges**: In rare cases, Ava 1.0 may misinterpret ambiguous inputs.
+- **Hardware Requirements**: Optimal performance requires a robust system with GPU acceleration.
+
+---
+
+## Roadmap
+
+- **Ava 2.0**: Introducing real-time learning capabilities and broader conversational adaptability.
+- **Lightweight Model**: Developing a lightweight version optimized for edge devices.
+- **Domain-Specific Fine-Tunes**: Specialized versions for industries like healthcare, education, and finance.
+
+---
+
+## License
+
+Ava 1.5 is released under Apache 2.0 License. Please review the LICENSE file for more details.
+
+---
+
+## Contact
+
+For inquiries, feedback, or support, feel free to reach out:
+
+- **Email**: aayan.mishra@proton.me
+- **GitHub**: [Spestly](https://github.com/Aayan-Mishra)
+- **Website**: [Download Weights!](https://huggingface.co/Spestly/Ava-1.5-12B)
