@@ -26,6 +26,10 @@ export const DATA = {
     "AWS",
     "Pandas",
     "Anaconda",
+    "Transformers",
+    "Diffusers",
+    "PEFT",
+    "Jupyter Notebooks"
   ],
   navbar: [
     { href: "/", icon: HomeIcon, label: "Home" },
@@ -74,16 +78,16 @@ export const DATA = {
 
   work: [
     {
-      company: "Neo" + ' ',
-      href: "https://atomic.finance",
+      company: "Odyssey Labs" + ' ',
+      href: "https://odyssey-labs.vercel.app/",
       badges: [],
       location: "Remote",
-      title: "Lead Machine Learning Engineer",
+      title: "Founder & Diffusion Model Engineer",
       logoUrl: "/neo.png",
-      start: "Dec 2024",
+      start: "Jan 2025",
       end: "Present",
       description:
-        "Neo v1 is a personal project where I fine-tuned YOLOv11 to create an AI model tailored for wildlife conservation. It automates the detection and monitoring of African wildlife in images and videos, enabling more efficient tracking of animal populations and supporting efforts to protect endangered species.",
+        "Odyssey Labs began as a small personal project fueled by curiosity and a passion for AI. Over time, it has evolved into a public research lab dedicated to pushing the boundaries of innovation. With a focus on creating cutting-edge models and solutions, Odyssey Labs empowers individuals and industries worldwide, fostering collaboration, learning, and breakthroughs in AI and machine learning.",
     }
   ],
   education: [
