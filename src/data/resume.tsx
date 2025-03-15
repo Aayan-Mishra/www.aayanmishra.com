@@ -8,9 +8,9 @@ export const DATA = {
   location: "Sydney, AUS",
   locationLink: "https://www.google.com/maps/place/sanfrancisco",
   description:
-    "Artifical Intelligence/Machine Learning Engineer",
+    "Artifical Intelligence/Machine Learning",
   summary:
-    "Since 2022, I’m fully immersed in building groundbreaking AI models, fine-tuning them to solve real-world problems, and exploring the intersection of innovation and impact at Apache Labs. With a strong foundation in Math, Python, and machine learning, I’ve worked on cutting-edge projects like Neo, a wildlife detection model, and fine-tuned YOLOv11 for African Wildlife detection.",
+    "Hey there! I'm Aayan and I work on building AI projects, from finetuning models like OdysseyXL to developing advanced systems like Kyro and Mimir. Whether its deep learning, experimenting with model optimization, or creating something entirely new, I'm always exploring the next big idea. When I'm not coding or training models, you'll probably find me watching Formula 1, , or refining my STEM.",
   avatarUrl: "/me.png",
   skills: [
     "Python",
@@ -25,7 +25,7 @@ export const DATA = {
     "Azure",
     "AWS",
     "Pandas",
-    "Anaconda",
+    "Unsloth",
     "Transformers",
     "Diffusers",
     "PEFT",
@@ -78,7 +78,7 @@ export const DATA = {
 
   work: [
     {
-      company: "Odyssey Labs" + ' ',
+      company: "Open-Neo" + ' ',
       href: "https://odyssey-labs.vercel.app/",
       badges: [],
       location: "Remote",
