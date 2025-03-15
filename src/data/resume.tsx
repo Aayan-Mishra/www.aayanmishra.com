@@ -194,7 +194,7 @@ export const DATA = {
   ],
   hackathons: [
     {
-      title: "Comming Soon!",
+      title: "Coming Soon!",
       dates: "",
       location: "",
       description:
