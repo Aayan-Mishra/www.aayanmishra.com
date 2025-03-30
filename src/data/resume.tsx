@@ -138,7 +138,7 @@ export const DATA = {
           icon: <Icons.globe className="size-3" />,
         },
       ],
-      image: "https://raw.githubusercontent.com/Aayan-Mishra/Images/refs/heads/main/NEO-v1.png",
+      image: "https://raw.githubusercontent.com/Aayan-Mishra/Images/refs/heads/main/Neo-Banner.png",
       video:
         "",
     },
@@ -188,7 +188,7 @@ export const DATA = {
           icon: <Icons.globe className="size-3" />,
         },
       ],
-      image: "https://huggingface.co/spaces/open-neo/README/resolve/main/Open-Neo.png",
+      image: "https://cdn-lfs-us-1.hf.co/repos/16/14/1614554dd1168c7fec8df36ea340434a161d77f621eebc46439941088c6b783c/23538cc1a979fd9fc702cab5b38aa02c5f01b85dfb0f88cb696d323a166af076?response-content-disposition=inline%3B+filename*%3DUTF-8%27%27Open-Neo.png%3B+filename%3D%22Open-Neo.png%22%3B&response-content-type=image%2Fpng&Expires=1743329656&Policy=eyJTdGF0ZW1lbnQiOlt7IkNvbmRpdGlvbiI6eyJEYXRlTGVzc1RoYW4iOnsiQVdTOkVwb2NoVGltZSI6MTc0MzMyOTY1Nn19LCJSZXNvdXJjZSI6Imh0dHBzOi8vY2RuLWxmcy11cy0xLmhmLmNvL3JlcG9zLzE2LzE0LzE2MTQ1NTRkZDExNjhjN2ZlYzhkZjM2ZWEzNDA0MzRhMTYxZDc3ZjYyMWVlYmM0NjQzOTk0MTA4OGM2Yjc4M2MvMjM1MzhjYzFhOTc5ZmQ5ZmM3MDJjYWI1YjM4YWEwMmM1ZjAxYjg1ZGZiMGY4OGNiNjk2ZDMyM2ExNjZhZjA3Nj9yZXNwb25zZS1jb250ZW50LWRpc3Bvc2l0aW9uPSomcmVzcG9uc2UtY29udGVudC10eXBlPSoifV19&Signature=lU47APv2fdYGU0mlJOFVsOnmkC6T6NZoRfWh%7E9i97y50e2kU2ixNUpjI4brfDR61sgInZrcKx3NGLXNXSuiBHYpqM8HJJVEgxBsB6e0urET0uUGv64whatNfqXcTu5Ft5Td25v4L29UztMjP%7ErD5IZ-UbsV4-Y%7E0tTnosp5CrLjVRVUuQOcwumR3TYSgloonvA8zO6X7RPiH9fT9HBIwvyBeiFU%7ExOhyUrs1287qUTAtEB%7ELCRM36KOfcfSHaIlCJ1BsJLSO7XoC6O%7EIBtwWeKPPqdBUtX0rYVi4skol%7Eh8CC3W1ax2im13VB0UB4JuL4ZwuUdzB%7EatNpX8s%7EOgpcQ__&Key-Pair-Id=K24J24Z295AEI9",
       video:
         "",
     },
