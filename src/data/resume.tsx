@@ -51,7 +51,7 @@ export const DATA = {
         url: "https://www.linkedin.com/in/aayan-mishra-856945311/",
         icon: Icons.linkedin,
 
-        navbar: true,
+        navbar: false,
       },
       X: {
         name: "X",
@@ -64,7 +64,7 @@ export const DATA = {
         name: "Youtube",
         url: "",
         icon: Icons.youtube,
-        navbar: true,
+        navbar: false,
       },
       email: {
         name: "Send Email",
@@ -79,7 +79,7 @@ export const DATA = {
   work: [
     {
       company: "Open-Neo" + ' ',
-      href: "https://odyssey-labs.vercel.app/",
+      href: "https://open-neo.vercel.app/",
       badges: [],
       location: "Remote",
       title: "Founder & Diffusion Model Engineer",
@@ -87,7 +87,7 @@ export const DATA = {
       start: "Jan 2025",
       end: "Present",
       description:
-        "Odyssey Labs began as a small personal project fueled by curiosity and a passion for AI. Over time, it has evolved into a public research lab dedicated to pushing the boundaries of innovation. With a focus on creating cutting-edge models and solutions, Odyssey Labs empowers individuals and industries worldwide, fostering collaboration, learning, and breakthroughs in AI and machine learning.",
+        "Open-Neo began as a small personal project fueled by curiosity and a passion for AI. Over time, it has evolved into a public research lab dedicated to pushing the boundaries of innovation. With a focus on creating cutting-edge models and solutions, Open-Neo empowers individuals, fostering collaboration, learning, and breakthroughs in AI and machine learning.",
     }
   ],
   education: [
@@ -118,18 +118,18 @@ export const DATA = {
   ],
   projects: [
     {
-      title: "NeoV.1",
+      title: "Kyro-n1",
       href: "",
       dates: "Dec 2024 - Present",
       active: true,
       description:
-        "NeoV is an AI-powered wildlife detection model, fine-tuned from YOLOv11, designed to enhance conservation efforts by automating the monitoring of African wildlife.",
+        "",
       technologies: [
         "Python",
-        "Low-Code",
-        "Image-classification Model",
-        "Ultralytics",
-        "YOLOv11",
+        "LLMs",
+        "Transformers",
+        "Qwen2.5",
+        "Unsloth",
       ],
       links: [
         {
@@ -168,26 +168,27 @@ export const DATA = {
       video: "",
     },
     {
-      title: "Glacier-o1",
+      title: "Open-Neo",
       href: "",
-      dates: "Dec 2024 - Present",
+      dates: "Jan 2024 - Present",
       active: true,
       description:
-        "Glacier-o1 is a fine-tune of Alibaba's Marco o1. Glacier is designed to have a similar reasoning pattern to OpenAI's o1",
+        "Open-Neo is an Australia based research lab dedicated to advancing open-source AI models",
       technologies: [
         "Python",
         "Low-Code",
         "text-to-text",
-        "Unsloth",
+        "NLP",
+        "Research"
       ],
       links: [
         {
-          type: "Download Weights",
-          href: "https://huggingface.co/Spestly/Glacier-o1",
+          type: "Website",
+          href: "https://open-neo.vercel.app",
           icon: <Icons.globe className="size-3" />,
         },
       ],
-      image: "https://raw.githubusercontent.com/Aayan-Mishra/Images/refs/heads/main/disc%20(2).png",
+      image: "https://huggingface.co/spaces/open-neo/README/resolve/main/Open-Neo.png",
       video:
         "",
     },
