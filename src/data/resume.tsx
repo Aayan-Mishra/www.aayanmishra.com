@@ -123,7 +123,7 @@ export const DATA = {
       dates: "Dec 2024 - Present",
       active: true,
       description:
-        "",
+        "Kyro-n1 is a lightweight and fast reasoning model based on Qwen/Qwen2.5-3B-Instruct.",
       technologies: [
         "Python",
         "LLMs",
