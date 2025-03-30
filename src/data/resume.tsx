@@ -83,7 +83,7 @@ export const DATA = {
       badges: [],
       location: "Remote",
       title: "Founder & Diffusion Model Engineer",
-      logoUrl: "/open-neo.jpg",
+      logoUrl: "/open-neo.png",
       start: "Jan 2025",
       end: "Present",
       description:
