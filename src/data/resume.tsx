@@ -198,7 +198,7 @@ export const DATA = {
       dates: "April 2024 - Present",
       active: true,
       description:
-        "Wyatt is an LLM that is based on Meta's Llama family that is designed for STEM tasks and general NLP tasks",
+        "Wyatt is an LLM that is based on Meta's Llama (3.1 and 3.2) family that is designed for STEM tasks and general NLP tasks",
       technologies: [
         "Python",
         "Unsloth",
@@ -210,12 +210,12 @@ export const DATA = {
       ],
       links: [
         {
-          type: "Website",
+          type: "Read More",
           href: "https://open-neo.vercel.app",
           icon: <Icons.globe className="size-3" />,
         },
       ],
-      image: "https://raw.githubusercontent.com/Aayan-Mishra/Images/refs/heads/main/Open-Neo.png",
+      image: "https://raw.githubusercontent.com/Aayan-Mishra/Images/refs/heads/main/Wyatt%20Project.png",
       video:
         "",
     },
