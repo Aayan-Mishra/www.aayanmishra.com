@@ -8,7 +8,7 @@ export const DATA = {
   location: "Sydney, AUS",
   locationLink: "https://www.google.com/maps/place/sanfrancisco",
   description:
-    "Artifical Intelligence/Machine Learning",
+    "Artifical Intelligence/Machine Learning Developer",
   summary:
     "Hey there! I'm Aayan and I work on building AI projects, from finetuning models like OdysseyXL to developing advanced systems like Kyro and Mimir. Whether its deep learning, experimenting with model optimization, or creating something entirely new, I'm always exploring the next big idea. When I'm not coding or training models, you'll probably find me watching Formula 1, , or refining my STEM.",
   avatarUrl: "/me.png",
@@ -68,10 +68,10 @@ export const DATA = {
       },
       email: {
         name: "Send Email",
-        url: "#",
+        url: "me@aayanmishra.com",
         icon: Icons.email,
 
-        navbar: false,
+        navbar: true,
       },
     },
   },
@@ -134,7 +134,7 @@ export const DATA = {
       links: [
         {
           type: "Read More",
-          href: "https://aayan-mishra.vercel.app/blog/neov",
+          href: "https://aayanmishra.con/blog/neov",
           icon: <Icons.globe className="size-3" />,
         },
       ],
@@ -160,7 +160,7 @@ export const DATA = {
       links: [
         {
           type: "Read More",
-          href: "https://aayan-mishra.vercel.app/blog/odysseyxl",
+          href: "https://aayanmishra.com/blog/odysseyxl",
           icon: <Icons.globe className="size-3" />,
         },
       ],
@@ -193,12 +193,12 @@ export const DATA = {
         "",
     },
         {
-      title: "Wyatt Project",
+      title: "Maverick",
       href: "",
       dates: "April 2024 - Present",
       active: true,
       description:
-        "Wyatt is an LLM that is based on Meta's Llama (3.1 and 3.2) family that is designed for STEM tasks and general NLP tasks",
+        "Wyatt is an LLM that is based on Alibaba's Qwen2.5 family that is designed for STEM tasks and general NLP tasks",
       technologies: [
         "Python",
         "Unsloth",
@@ -211,7 +211,7 @@ export const DATA = {
       links: [
         {
           type: "Read More",
-          href: "https://open-neo.vercel.app",
+          href: "https://huggingface.co/collections/Spestly/maverick-1-67ece486149311c0a3552e4a",
           icon: <Icons.globe className="size-3" />,
         },
       ],
