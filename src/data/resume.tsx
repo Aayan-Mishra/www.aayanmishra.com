@@ -10,7 +10,7 @@ export const DATA = {
   description:
     "Artifical Intelligence/Machine Learning Developer",
   summary:
-    "Hey there! I'm Aayan and I work on building AI projects, from finetuning models like OdysseyXL to developing advanced systems like Kyro and Mimir. Whether its deep learning, experimenting with model optimization, or creating something entirely new, I'm always exploring the next big idea. When I'm not coding or training models, you'll probably find me watching Formula 1, , or refining my STEM.",
+    "Hey there! I'm Aayan and I work on building AI projects, from finetuning models like OdysseyXL to developing systems such as Maverick Search. Whether its deep learning, experimenting with model optimization, or creating something entirely new, I'm always exploring something. When I'm not coding or training models, you'll probably find me watching Formula 1.",
   avatarUrl: "/me.png",
   skills: [
     "Python",
