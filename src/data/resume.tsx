@@ -198,7 +198,7 @@ export const DATA = {
       dates: "April 2024 - Present",
       active: true,
       description:
-        "Wyatt is an LLM that is based on Alibaba's Qwen2.5 family that is designed for STEM tasks and general NLP tasks",
+        "Maverick is an LLM that is based on Alibaba's Qwen2.5 family that is designed for STEM tasks and general NLP tasks",
       technologies: [
         "Python",
         "Unsloth",
@@ -215,7 +215,7 @@ export const DATA = {
           icon: <Icons.globe className="size-3" />,
         },
       ],
-      image: "https://raw.githubusercontent.com/Aayan-Mishra/Images/refs/heads/main/Wyatt%20Project.png",
+      image: "https://raw.githubusercontent.com/Aayan-Mishra/Images/refs/heads/main/Maverick.png",
       video:
         "",
     },
