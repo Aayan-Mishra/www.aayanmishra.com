@@ -92,14 +92,6 @@ export const DATA = {
   ],
   education: [
     {
-      school: "Machine Learning Engineer Path - Google",
-      href: "https://www.cloudskillsboost.google/paths/17",
-      degree: "",
-      logoUrl: "/google.png",
-      start: "2024",
-      end: "2024",
-    },
-    {
       school: "CodeSignal - Building Neural Networks with PyTorch",
       href: "https://learn.codesignal.com/course-paths/41",
       degree: "",
