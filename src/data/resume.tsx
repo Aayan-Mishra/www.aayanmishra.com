@@ -6,7 +6,7 @@ export const DATA = {
   initials: "AM",
   url: "https://aayan-mishra.vercel.app",
   location: "Sydney, AUS",
-  locationLink: "https://www.google.com/maps/place/sanfrancisco",
+  locationLink: "https://www.google.com/maps/place/sydney",
   description:
     "Artifical Intelligence/Machine Learning Developer",
   summary:
@@ -111,7 +111,7 @@ export const DATA = {
   projects: [
     {
       title: "Kyro-n1",
-      href: "",
+      href: "https://open-neo.vercel.app/",
       dates: "Dec 2024 - Present",
       active: true,
       description:
@@ -126,7 +126,7 @@ export const DATA = {
       links: [
         {
           type: "Read More",
-          href: "https://aayanmishra.con/blog/neov",
+          href: "https://open-neo.vercel.app/",
           icon: <Icons.globe className="size-3" />,
         },
       ],
@@ -136,7 +136,7 @@ export const DATA = {
     },
     {
       title: "OdysseyXL",
-      href: "https://magicui.design",
+      href: "https://open-neo.vercel.app/",
       dates: "June 2023 - Present",
       active: true,
       description:
@@ -161,7 +161,7 @@ export const DATA = {
     },
     {
       title: "Open-Neo",
-      href: "",
+      href: "https://open-neo.vercel.app/",
       dates: "Jan 2024 - Present",
       active: true,
       description:
@@ -185,12 +185,12 @@ export const DATA = {
         "",
     },
         {
-      title: "Maverick",
+      title: "Athena",
       href: "",
       dates: "April 2024 - Present",
       active: true,
       description:
-        "Maverick is an LLM that is based on Alibaba's Qwen2.5 family that is designed for STEM tasks and general NLP tasks",
+        "Athena is an LLM that is based on Alibaba's Qwen2.5 family that is designed for STEM tasks and general NLP tasks",
       technologies: [
         "Python",
         "Unsloth",
@@ -203,7 +203,7 @@ export const DATA = {
       links: [
         {
           type: "Read More",
-          href: "https://huggingface.co/collections/Spestly/maverick-1-67ece486149311c0a3552e4a",
+          href: "https://huggingface.co/collections/Spestly/athena-3-67ece486149311c0a3552e4a",
           icon: <Icons.globe className="size-3" />,
         },
       ],
