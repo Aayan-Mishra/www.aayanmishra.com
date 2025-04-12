@@ -214,18 +214,18 @@ export const DATA = {
   ],
   hackathons: [
     {
-      title: "Coming Soon!",
-      dates: "",
+      title: "Maverick Search",
+      dates: "05/04/2025",
       location: "",
       description:
-        "",
+        "Maverick Search is an open-source AI search engine designed to run locally. Any local model can be used but Athena-3 models are optimised with this code. Maverick Search uses Exa Search API ",
       image:
         "",
       links: [
         {
           title: "",
           icon: <Icons.github className="h-4 w-4" />,
-          href: "",
+          href: "https://github.com/Aayan-Mishra/Maverick-Search",
         },
       ],
     },
