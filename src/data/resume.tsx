@@ -48,10 +48,10 @@ export const DATA = {
       },
       LinkedIn: {
         name: "LinkedIn",
-        url: "https://www.linkedin.com/in/aayan-mishra-856945311/",
+        url: "https://www.linkedin.com/in/aayan-mishra/",
         icon: Icons.linkedin,
 
-        navbar: false,
+        navbar: true,
       },
       X: {
         name: "X",
