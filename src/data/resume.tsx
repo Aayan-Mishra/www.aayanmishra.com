@@ -102,18 +102,18 @@ export const DATA = {
     {
       school: "CodeSignal - Building Neural Networks with PyTorch",
       href: "https://learn.codesignal.com/course-paths/41",
-      degree: "",
+      degree: "Master PyTorch with this learning path, designed for those experienced in Python and machine learning. From tensor basics to advanced modeling, it includes practical exercises focused on real-world datasets, such as the wine dataset, enhancing your deep learning skills through PyTorch.",
       logoUrl: "/codes.png",
       start: "2024",
-      end: "2024",
+      end: "2025",
     },
     {
       school: "Sololearn - Python Developer",
       href: "https://www.sololearn.com/certificates/CC-HIOWA4X8",
-      degree: "",
+      degree: "Python is the world's fastest growing programming language is easy to read, learn and code. You'll learn to build interactive programs and automate your tasks, analyze and visualize even the most complex data and create AI and machine learning models. No previous coding experience needed.",
       logoUrl: "/solo.png",
-      start: "2023",
-      end: "2024",
+      start: "2024",
+      end: "2025",
     },
   ],
   projects: [
