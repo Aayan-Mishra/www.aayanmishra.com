@@ -94,7 +94,7 @@ export const DATA = {
     {
       school: "Massachusetts Institute of Technology - 6.S191 Introduction to Deep Learning",
       href: "https://introtodeeplearning.com/",
-      degree: "Non-degree course",
+      degree: "MIT's introductory program on deep learning methods with applications to natural language processing, computer vision, biology, and more! Students will gain foundational knowledge of deep learning algorithms, practical experience in building neural networks, and understanding of cutting-edge topics including large language models and generative AI.",
       logoUrl: "https://brand.mit.edu/sites/default/files/styles/image_text_2x/public/2023-08/MIT-logo-red-textandimage.png?itok=RNoAwZvy",
       start: "2025",
       end: "Present",
