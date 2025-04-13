@@ -92,6 +92,14 @@ export const DATA = {
   ],
   education: [
     {
+      school: "Massachusetts Institute of Technology - 6.S191 Introduction to Deep Learning",
+      href: "https://introtodeeplearning.com/",
+      degree: "Non-degree course",
+      logoUrl: "https://brand.mit.edu/sites/default/files/styles/image_text_2x/public/2023-08/MIT-logo-red-textandimage.png?itok=RNoAwZvy",
+      start: "2025",
+      end: "Present",
+    },
+    {
       school: "CodeSignal - Building Neural Networks with PyTorch",
       href: "https://learn.codesignal.com/course-paths/41",
       degree: "",
