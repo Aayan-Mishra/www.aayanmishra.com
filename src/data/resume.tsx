@@ -108,14 +108,6 @@ export const DATA = {
       end: "Present",
     },
     {
-      school: "Amazon Web Services  - Introduction to Cloud Computing with AWS",
-      href: "https://www.awseducate.com/",
-      degree: "Completed multiple courses on AWS Educate covering essential cloud technologies, including cloud computing fundamentals, machine learning foundations, and modern application development. Gained hands-on experience with AWS services and built a strong foundation in cloud architecture, AI concepts, and scalable application design.",
-      logoUrl: "https://d1yjjnpx0p53s8.cloudfront.net/styles/logo-thumbnail/s3/102017/logo_0.png?17TK91b1B6OvV2MFrCLfukw1c8oEaNr6&itok=vsanFiUj",
-      start: "2025",
-      end: "Present",
-    },
-    {
       school: "CodeSignal - Building Neural Networks with PyTorch",
       href: "https://learn.codesignal.com/course-paths/41",
       degree: "Master PyTorch with this learning path, designed for those experienced in Python and machine learning. From tensor basics to advanced modeling, it includes practical exercises focused on real-world datasets, such as the wine dataset, enhancing your deep learning skills through PyTorch.",
