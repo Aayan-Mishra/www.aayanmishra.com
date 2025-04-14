@@ -92,6 +92,14 @@ export const DATA = {
   ],
   education: [
     {
+      school: "Harvard University - CS50x: Introduction to Computer Science",
+      href: "https://cs50.harvard.edu/x/2025/",
+      degree: "This is CS50x , Harvard University's introduction to the intellectual enterprises of computer science and the art of programming for majors and non-majors alike, with or without prior programming experience. An entry-level course taught by David J. Malan, CS50x teaches students how to think algorithmically and solve problems efficiently. Topics include abstraction, algorithms, data structures, encapsulation, resource management, security, software engineering, and web development. Languages include C, Python, SQL, and JavaScript plus CSS and HTML. Problem sets inspired by real-world domains of biology, cryptography, finance, forensics, and gaming.",
+      logoUrl: "https://static.wixstatic.com/media/b2923a_13b9e27e14244257b3bce3b55b5b9a6f~mv2.png/v1/fill/w_630,h_612,al_c,q_90,usm_0.66_1.00_0.01,enc_avif,quality_auto/Harvard_shield_servility_wreath.png",
+      start: "2025",
+      end: "Present",
+    },
+    {
       school: "Massachusetts Institute of Technology - 6.S191 Introduction to Deep Learning",
       href: "https://introtodeeplearning.com/",
       degree: "MIT's introductory program on deep learning methods with applications to natural language processing, computer vision, biology, and more! Students will gain foundational knowledge of deep learning algorithms, practical experience in building neural networks, and understanding of cutting-edge topics including large language models and generative AI.",
