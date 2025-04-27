@@ -201,12 +201,12 @@ export const DATA = {
         "",
     },
         {
-      title: "Athena",
+      title: "Noema",
       href: "",
       dates: "April 2024 - Present",
       active: true,
       description:
-        "Athena is an LLM that is based on Alibaba's Qwen2.5 family that is designed for STEM tasks and general NLP tasks",
+        "Noema 1 is the first model in the Noema family, which is based on Nous Research's Hermes model and Allen AI's (Ai2) OLMo-2 model.",
       technologies: [
         "Python",
         "Unsloth",
@@ -214,16 +214,17 @@ export const DATA = {
         "image-text-to-text",
         "Multimodal LLM",
         "NLP",
-        "Research"
+        "Research",
+        "Llama"
       ],
       links: [
         {
           type: "Read More",
-          href: "https://huggingface.co/collections/Spestly/athena-3-67ece486149311c0a3552e4a",
+          href: "https://huggingface.co/collections/Spestly/noema-1-680b09e8f1f79700ffa03e3e",
           icon: <Icons.globe className="size-3" />,
         },
       ],
-      image: "https://raw.githubusercontent.com/Aayan-Mishra/Images/refs/heads/main/Maverick.png",
+      image: "/public/noema.png",
       video:
         "",
     },
