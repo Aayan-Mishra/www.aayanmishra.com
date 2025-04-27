@@ -224,7 +224,7 @@ export const DATA = {
           icon: <Icons.globe className="size-3" />,
         },
       ],
-      image: "/public/noema.png",
+      image: "https://raw.githubusercontent.com/Aayan-Mishra/www.aayanmishra.com/refs/heads/main/public/noema.png",
       video:
         "",
     },
