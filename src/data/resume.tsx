@@ -78,6 +78,18 @@ export const DATA = {
 
   work: [
     {
+      company: "Cohere Labs - Open Science Community" + ' ',
+      href: "https://cohere.com/research/open-science",
+      badges: [],
+      location: "Remote",
+      title: "Open Science Contributor",
+      logoUrl: "/cohere.jpg",
+      start: "May 2025",
+      end: "Present",
+      description:
+        "Cohere Labs – Open Science Community is a collaborative research initiative supported by Cohere For AI, aimed at advancing machine learning through open science. The community brings together independent researchers, engineers, students, and practitioners from around the world to contribute to shared projects in areas such as natural language processing, large language models, evaluation frameworks, and responsible AI. Projects hosted under the CohereLabsCommunity Hugging Face organization reflect the collective efforts of this global network, emphasizing transparency, reproducibility, and inclusive access to cutting-edge AI research.",
+    },
+    {
       company: "Open-Neo" + ' ',
       href: "https://open-neo.vercel.app/",
       badges: [],
