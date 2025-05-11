@@ -82,7 +82,7 @@ export const DATA = {
       href: "https://cohere.com/research/open-science",
       badges: [],
       location: "Remote",
-      title: "Open Science Developer",
+      title: "Open Science Developer & Researcher",
       logoUrl: "/cohere-pfp.png",
       start: "May 2025",
       end: "Present",
