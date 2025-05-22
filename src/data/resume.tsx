@@ -111,7 +111,7 @@ export const DATA = {
       start: "Jan 2025",
       end: "March 2025",
       description:
-        "Open-Neo began as a small personal project fueled by curiosity and a passion for AI. Over time, it has evolved into a public research lab dedicated to pushing the boundaries of innovation. With a focus on creating cutting-edge models and solutions, Open-Neo empowers individuals, fostering collaboration, learning, and breakthroughs in AI and machine learning.",
+        "In Open-Neo, I led the maintenance of OdysseyXL, A SOTA Stable Difussion model based on Stability AI's SDXL model. The model was fine-tuned through Dreamboothing to help enhance the model's overall realism when generating outputs for specific categories such as landscapes.",
     }
   ],
   education: [
