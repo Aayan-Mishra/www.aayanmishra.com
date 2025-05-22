@@ -4,7 +4,7 @@ import { HomeIcon, NotebookIcon } from "lucide-react";
 export const DATA = {
   name: "Aayan Mishra",
   initials: "AM",
-  url: "https://aayan-mishra.vercel.app",
+  url: "https://aayanmishra.com",
   location: "Sydney, AUS",
   locationLink: "https://www.google.com/maps/place/sydney",
   description:
@@ -77,6 +77,18 @@ export const DATA = {
   },
 
   work: [
+      {
+      company: "Noema Labs" + ' ',
+      href: "https://open-neo.vercel.app/",
+      badges: [],
+      location: "Remote",
+      title: "Lead Developer of Transformers models",
+      logoUrl: "/Noema.jpg",
+      start: "May 2025",
+      end: "Present",
+      description:
+        "In Noema Labs, I led the development of models such as NoemaCoder-T1 and and the Noema family through technology such as Unsloth which is a PEFT-based fine-tuning framework which allows parameter efficent fine-tuning of models.",
+    },
     {
       company: "Cohere Labs - Open Science Community" + ' ',
       href: "https://cohere.com/research/open-science",
@@ -87,7 +99,7 @@ export const DATA = {
       start: "May 2025",
       end: "Present",
       description:
-        "Cohere Labs – Open Science Community is a collaborative research initiative supported by Cohere For AI, aimed at advancing machine learning through open science. The community brings together independent researchers, engineers, students, and practitioners from around the world to contribute to shared projects in areas such as natural language processing, large language models, evaluation frameworks, and responsible AI. Projects hosted under the CohereLabsCommunity Hugging Face organization reflect the collective efforts of this global network, emphasizing transparency, reproducibility, and inclusive access to cutting-edge AI research.",
+        "Cohere Labs – Open Science Community is a collaborative research initiative supported by Cohere Labs, aimed at advancing machine learning through open science. The community brings together independent researchers, engineers, students, and practitioners from around the world to contribute to shared projects in areas such as natural language processing, large language models, evaluation frameworks, and responsible AI. Projects hosted under the CohereLabsCommunity Hugging Face organization reflect the collective efforts of this global network, emphasizing transparency, reproducibility, and inclusive access to cutting-edge AI research.",
     },
     {
       company: "Open-Neo" + ' ',
@@ -97,7 +109,7 @@ export const DATA = {
       title: "Founder & Diffusion Model Engineer",
       logoUrl: "/open-neo.png",
       start: "Jan 2025",
-      end: "Present",
+      end: "March 2025",
       description:
         "Open-Neo began as a small personal project fueled by curiosity and a passion for AI. Over time, it has evolved into a public research lab dedicated to pushing the boundaries of innovation. With a focus on creating cutting-edge models and solutions, Open-Neo empowers individuals, fostering collaboration, learning, and breakthroughs in AI and machine learning.",
     }
@@ -205,18 +217,17 @@ export const DATA = {
         "",
     },
         {
-      title: "Noema",
+      title: "NoemaCoder",
       href: "",
       dates: "April 2024 - Present",
       active: true,
       description:
-        "Noema 1 is the first model in the Noema family, which is based on Nous Research's Hermes model and Allen AI's (Ai2) OLMo-2 model.",
+        "NoemaCoder is a SOTA coding LLM that excels in many enviourments. Based on Bytedance-Seed's SeedCoder-8B, providing an excelent base which outperforms models such as Alibaba's QwQ-32B and Deepseek AI's Deepseek-R1",
       technologies: [
         "Python",
         "Unsloth",
         "text-to-text",
-        "image-text-to-text",
-        "Multimodal LLM",
+        "Code",
         "NLP",
         "Research",
         "Llama"
