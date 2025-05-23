@@ -77,6 +77,18 @@ export const DATA = {
   },
 
   work: [
+   {
+      company: "Open-Neo" + ' ',
+      href: "https://open-neo.vercel.app/",
+      badges: [],
+      location: "Remote",
+      title: "Founder &  Large Language Model Engineer",
+      logoUrl: "/Noema.png",
+      start: "Jan 2025",
+      end: "Present",
+      description:
+        "",
+    }
     {
       company: "Cohere Labs - Open Science Community" + ' ',
       href: "https://cohere.com/research/open-science",
@@ -89,18 +101,6 @@ export const DATA = {
       description:
         "Cohere Labs – Open Science Community is a collaborative research initiative supported by Cohere Labs, aimed at advancing machine learning through open science. The community brings together independent researchers, engineers, students, and practitioners from around the world to contribute to shared projects in areas such as natural language processing, large language models, evaluation frameworks, and responsible AI. Projects hosted under the CohereLabsCommunity Hugging Face organization reflect the collective efforts of this global network, emphasizing transparency, reproducibility, and inclusive access to cutting-edge AI research.",
     },
-    {
-      company: "Open-Neo" + ' ',
-      href: "https://open-neo.vercel.app/",
-      badges: [],
-      location: "Remote",
-      title: "Founder & Diffusion Model Engineer",
-      logoUrl: "/open-neo.png",
-      start: "Jan 2025",
-      end: "Present",
-      description:
-        "In Open-Neo, I led the maintenance of OdysseyXL, A SOTA Stable Difussion model based on Stability AI's SDXL model. The model was fine-tuned through Dreamboothing to help enhance the model's overall realism when generating outputs for specific categories such as landscapes.",
-    }
   ],
   education: [
     {
