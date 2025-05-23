@@ -77,18 +77,6 @@ export const DATA = {
   },
 
   work: [
-      {
-      company: "Noema Labs" + ' ',
-      href: "https://open-neo.vercel.app/",
-      badges: [],
-      location: "Remote",
-      title: "Lead Developer of Transformers models",
-      logoUrl: "/Noema.jpg",
-      start: "May 2025",
-      end: "Present",
-      description:
-        "In Noema Labs, I led the development of models such as NoemaCoder-T1 and and the Noema family through technology such as Unsloth which is a PEFT-based fine-tuning framework which allows parameter efficent fine-tuning of models.",
-    },
     {
       company: "Cohere Labs - Open Science Community" + ' ',
       href: "https://cohere.com/research/open-science",
@@ -109,7 +97,7 @@ export const DATA = {
       title: "Founder & Diffusion Model Engineer",
       logoUrl: "/open-neo.png",
       start: "Jan 2025",
-      end: "March 2025",
+      end: "Present",
       description:
         "In Open-Neo, I led the maintenance of OdysseyXL, A SOTA Stable Difussion model based on Stability AI's SDXL model. The model was fine-tuned through Dreamboothing to help enhance the model's overall realism when generating outputs for specific categories such as landscapes.",
     }
