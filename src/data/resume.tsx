@@ -82,8 +82,8 @@ export const DATA = {
       href: "https://open-neo.vercel.app/",
       badges: [],
       location: "Remote",
-      title: "Founder &  Large Language Model Engineer",
-      logoUrl: "/Noema.png",
+      title: "Founder &  Transformers Model Engineer",
+      logoUrl: "/Noema.jpg",
       start: "Jan 2025",
       end: "Present",
       description:
