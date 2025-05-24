@@ -88,7 +88,7 @@ export const DATA = {
       end: "Present",
       description:
         "",
-    }
+    },
     {
       company: "Cohere Labs - Open Science Community" + ' ',
       href: "https://cohere.com/research/open-science",
