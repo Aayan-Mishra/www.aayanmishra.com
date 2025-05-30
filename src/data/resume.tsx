@@ -115,7 +115,7 @@ export const DATA = {
       school: "Hugging Face - LLM Course",
       href: "https://cdn-uploads.huggingface.co/production/uploads/noauth/lmjaPx4aE-aFfMWiwPoV0.webp",
       degree: "The Hugging Face LLM Course is a practical, hands-on introduction to working with large language models (LLMs) using the Hugging Face ecosystem. It covers key concepts like transformers, tokenization, model inference with pipelines, fine-tuning on custom datasets, evaluation, and deployment. Designed for developers and ML practitioners with basic Python skills, the course teaches how to leverage state-of-the-art models for tasks such as summarization, classification, and translation. Learners get to explore the Hub, train and share models, and optimize inference with tools like Text Generation Inference (TGI) and accelerate, all through interactive Colab notebooks and real-world examples.",
-      logoUrl: "jgzNmI0YzgzLzk0MmNhZDFjY2RhOTA1YWM1YTY1OWRmZDJkNzhiMzQ0ZmNjZmI4NGE4YTNhYzM3MjFlMDhmNDg4MjA1NjM4YTA%7EcmVzcG9uc2UtY29udGVudC1kaXNwb3NpdGlvbj0qJnJlc3BvbnNlLWNvbnRlbnQtdHlwZT0qIn1dfQ__&Signature=HJdY6h6R3np3cPF5YJkVyhO7EiXZzsnGniKP3s0pazxeMlKDWrK8G0eCc6CE9N8K979z3WWteNOuUjwnkjwZD3WePoe%7Exy--MzzNmyutmbJCIIgUPyeZEDGsspC6vQJS9qZGS293z00sTqhdO9qyO20CVhlAlhf5wzNaRf8zySZ4wb18w7PPXhgQHyvX1y9MWc3OuBaBkLuHZl4Aa%7E%7Eqza3TXffYbsH2fY3o35jd6OcDXfAj0o9VE9ybWikph7CcwaMzqhdhtfNDRyxB3Tx4B6DUS-DioVQ%7EuMBt-weVdOvELudefjTzVijFrUP5cZo4vXkJ9wk9mwjmGumeBLdhcg__&Key-Pair-Id=K3RPWS32NSSJCE",
+      logoUrl: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR4SWKXhvP9a0SUoa0lKwL0gqVDHpL0YKxay3Og937JRUAnNkSmDQXJMIcLHBPG4_6s9uY&usqp=CAU",
       start: "2025",
       end: "Present",
     },
