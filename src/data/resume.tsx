@@ -239,7 +239,7 @@ export const DATA = {
       description:
         "Maverick Search is an open-source AI search engine designed to run locally. Any local model can be used through Ollama Maverick Search uses Exa Search API ",
       image:
-        "",
+        "/maverick.png",
       links: [
         {
           title: "",
