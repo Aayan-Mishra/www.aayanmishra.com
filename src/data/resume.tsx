@@ -219,7 +219,7 @@ export const DATA = {
     {
       title: "Vera-V1: Enhancing Multilingual Language Models with Group Relative Policy Optimisation (GRPO)",
       dates: "In Progress",
-      location: "",
+      location: "Aayan Mishra, Alex Gimei, Archit Kohli (Cohere Open Science); Sasikanth Kotti (Indian Institute of Technology Jodhpur); Dipika Khullar (Amazon AGI); Subramanyam Sahoo (BASIS, UC Berkeley); Ashay Srivastava (University of Maryland).",
       description:
         "This is a research project which I led the development of the Vera model family. The purpose of this research project was to analyse how we can improve non-reasoning multilingual LLMs through reinforcement specifically Group Relative Policy Optimisation (GRPO).",
       image:
