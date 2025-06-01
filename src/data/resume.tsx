@@ -223,12 +223,12 @@ export const DATA = {
       description:
         "This is a research project which I led the development of the Vera model family. The purpose of this research project was to analyse how we can improve non-reasoning multilingual LLMs through reinforcement specifically Group Relative Policy Optimisation (GRPO).",
       image:
-        "",
+        "https://cdn-avatars.huggingface.co/v1/production/uploads/669c7b63fe9496b3c680ed87/lwgIepa79zpWARASx5n3e.png",
       links: [
         {
           title: "Models",
           icon: <Icons.github className="h-4 w-4" />,
-          href: "",
+          href: "https://huggingface.co/VeraLabs",
         },
       ],
     },
