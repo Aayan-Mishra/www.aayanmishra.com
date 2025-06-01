@@ -8,7 +8,7 @@ export const DATA = {
   location: "Sydney, AUS",
   locationLink: "https://www.google.com/maps/place/sydney",
   description:
-    "Artifical Intelligence/Machine Learning Developer",
+    "Artifical Intelligence/Machine Learning Developer & Researcher",
   summary:
     "Hey there! I'm Aayan and I work on building AI projects, from finetuning models like OdysseyXL to developing systems such as Maverick Search. Whether its deep learning, experimenting with model optimization, or creating something entirely new, I'm always exploring something. When I'm not coding or training models, you'll probably find me watching Formula 1.",
   avatarUrl: "/mer.png",
@@ -138,34 +138,9 @@ export const DATA = {
   ],
   projects: [
     {
-      title: "Kyro-n1",
-      href: "https://open-neo.vercel.app/",
-      dates: "Dec 2024 - Present",
-      active: true,
-      description:
-        "Kyro-n1 is a lightweight and fast reasoning model based on Qwen/Qwen2.5-3B-Instruct.",
-      technologies: [
-        "Python",
-        "LLMs",
-        "Transformers",
-        "Qwen2.5",
-        "Unsloth",
-      ],
-      links: [
-        {
-          type: "Read More",
-          href: "https://open-neo.vercel.app/",
-          icon: <Icons.globe className="size-3" />,
-        },
-      ],
-      image: "https://raw.githubusercontent.com/Aayan-Mishra/Images/refs/heads/main/Neo-Banner.png",
-      video:
-        "",
-    },
-    {
       title: "OdysseyXL",
-      href: "https://open-neo.vercel.app/",
-      dates: "June 2023 - Present",
+      href: "https://huggingface.co/collections/Spestly/odysseyxl-683bc2e002c1a474a83bfafb",
+      dates: "June 2023 - May 2025",
       active: true,
       description:
         "Fine-tune of Stability.ai's SDXL text-to-image model for enhanced realism and better image generation",
@@ -215,7 +190,7 @@ export const DATA = {
         {
       title: "NoemaCoder",
       href: "",
-      dates: "April 2024 - Present",
+      dates: "May 2025 - Present",
       active: true,
       description:
         "NoemaCoder is a SOTA coding LLM that excels in many enviourments. Based on Bytedance-Seed's SeedCoder-8B, providing an excelent base which outperforms models such as Alibaba's QwQ-32B and Deepseek AI's Deepseek-R1",
@@ -246,7 +221,7 @@ export const DATA = {
       dates: "05/04/2025",
       location: "",
       description:
-        "Maverick Search is an open-source AI search engine designed to run locally. Any local model can be used but Athena-3 models are optimised with this code. Maverick Search uses Exa Search API ",
+        "Maverick Search is an open-source AI search engine designed to run locally. Any local model can be used through Ollama Maverick Search uses Exa Search API ",
       image:
         "",
       links: [
