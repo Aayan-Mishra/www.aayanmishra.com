@@ -217,6 +217,22 @@ export const DATA = {
   ],
   hackathons: [
     {
+      title: "Vera-V1: Enhancing Multilingual Language Models with Group Relative Policy Optimisation (GRPO)",
+      dates: "In Progress",
+      location: "",
+      description:
+        "This is a research project which I led the development of the Vera model family. The purpose of this research project was to analyse how we can improve non-reasoning multilingual LLMs through reinforcement specifically Group Relative Policy Optimisation (GRPO).",
+      image:
+        "",
+      links: [
+        {
+          title: "Models",
+          icon: <Icons.github className="h-4 w-4" />,
+          href: "",
+        },
+      ],
+    },
+    {
       title: "Maverick Search",
       dates: "05/04/2025",
       location: "",
