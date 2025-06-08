@@ -117,7 +117,7 @@ export const DATA = {
       degree: "The Hugging Face LLM Course is a practical, hands-on introduction to working with large language models (LLMs) using the Hugging Face ecosystem. It covers key concepts like transformers, tokenization, model inference with pipelines, fine-tuning on custom datasets, evaluation, and deployment. Designed for developers and ML practitioners with basic Python skills, the course teaches how to leverage state-of-the-art models for tasks such as summarization, classification, and translation. Learners get to explore the Hub, train and share models, and optimize inference with tools like Text Generation Inference (TGI) and accelerate, all through interactive Colab notebooks and real-world examples.",
       logoUrl: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR4SWKXhvP9a0SUoa0lKwL0gqVDHpL0YKxay3Og937JRUAnNkSmDQXJMIcLHBPG4_6s9uY&usqp=CAU",
       start: "2025",
-      end: "Present",
+      end: "2025",
     },
     {
       school: "TAFE NSW - Introduction to Artificial Intelligence",
