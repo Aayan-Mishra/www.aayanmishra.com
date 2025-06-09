@@ -42,7 +42,7 @@ export const DATA = {
       GitHub: {
         name: "GitHub",
         url: "https://github.com/Aayan-Mishra",
-        icon: Icons.globe,
+        icon: Icons.github,
 
         navbar: true,
       },
@@ -63,8 +63,8 @@ export const DATA = {
       Youtube: {
         name: "Resume",
         url: "/aayan-mishra-resume-v1.pdf",
-        icon: Icons.youtube,
-        navbar: false,
+        icon: Icons.globe,
+        navbar: true,
       },
       email: {
         name: "Send Email",
