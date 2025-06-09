@@ -167,8 +167,8 @@ export const DATA = {
           icon: <Icons.globe className="size-3" />,
         },
         {
-          type: "Weights",
-          href: "https://huggingface.co/collections/Spestly/odysseyxl-683bc2e002c1a474a83bfafb",
+          type: "Weights & Code",
+          href: "https://github.com/Aayan-Mishra/OdysseyXL/tree/main",
           icon: <Icons.github className="size-3" />,
         }
       ],
