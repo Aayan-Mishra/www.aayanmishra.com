@@ -148,7 +148,7 @@ export const DATA = {
     {
       title: "OdysseyXL",
       href: "https://huggingface.co/collections/Spestly/odysseyxl-683bc2e002c1a474a83bfafb",
-      dates: "June 2023 - May 2025",
+      dates: "November 2023 - Present",
       active: true,
       description:
         "Fine-tune of Stability.ai's SDXL text-to-image model for enhanced realism and better image generation",
