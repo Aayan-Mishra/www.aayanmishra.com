@@ -48,7 +48,7 @@ export const DATA = {
       },
       LinkedIn: {
         name: "LinkedIn",
-        url: "https://www.linkedin.com/in/aayan-mishra/",
+        url: "https://www.linkedin.com/in/mishraayan/",
         icon: Icons.linkedin,
 
         navbar: true,
@@ -60,13 +60,13 @@ export const DATA = {
 
         navbar: true,
       },
-      Youtube: {
+      Resume: {
         name: "Resume",
         url: "/aayan-mishra-resume-v1.pdf",
         icon: Icons.globe,
         navbar: true,
       },
-      email: {
+      Email: {
         name: "Send Email",
         url: "me@aayanmishra.com",
         icon: Icons.email,
