@@ -200,6 +200,31 @@ export const DATA = {
       video:
         "",
     },
+    {
+      title: "Maverick Search",
+      href: "https://github.com/Aayan-Mishra/Maverick-Search",
+      dates: "Apr 2025 - Present",
+      active: true,
+      description:
+        "Maverick Search is an open-source AI search engine designed to run locally with Ollama. Maverick Search uses Exa Search API which more information can be found at exa.ai. This project is designed to be an open-source alternative to major AI search engines such as Perplexity and etc.",
+      technologies: [
+        "Python",
+        "Low-Code",
+        "text-to-text",
+        "NLP",
+        "Research"
+      ],
+      links: [
+        {
+          type: "Code",
+          href: "https://github.com/Aayan-Mishra/Maverick-Search",
+          icon: <Icons.github className="size-3" />,
+        },
+      ],
+      image: "/maverick-banner.png",
+      video:
+        "",
+    },
   ],
   hackathons: [
     {
@@ -218,20 +243,6 @@ export const DATA = {
         },
       ],
     },
-    {
-      title: "Maverick Search",
-      dates: "05/04/2025",
-      location: "",
-      description:
-        "Maverick Search is an open-source AI search engine designed to run locally. Any local model can be used through Ollama Maverick Search uses Exa Search API ",
-      image:
-        "/maverick.png",
-      links: [
-        {
-          title: "",
-          icon: <Icons.github className="h-4 w-4" />,
-          href: "https://github.com/Aayan-Mishra/Maverick-Search",
-        },
       ],
     },
   ],
