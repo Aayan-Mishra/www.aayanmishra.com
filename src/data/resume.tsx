@@ -61,8 +61,8 @@ export const DATA = {
         navbar: true,
       },
       Youtube: {
-        name: "Youtube",
-        url: "",
+        name: "Resume",
+        url: "/aayan-mishra-resume-v1.pdf",
         icon: Icons.youtube,
         navbar: false,
       },
