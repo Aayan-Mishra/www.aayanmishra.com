@@ -24,7 +24,7 @@ summary: "Introducng Athena-3 and R3: A family of multilingual STEM models"
 
 ## **Training Details**
 
-Athena-3-14B was fine-tuned using the Unsloth framework on a single NVIDIA A100 GPU. The fine-tuning process spanned approximately 90 minutes over 60 epochs, utilizing a curated instruction-tuned dataset. It is tailored for generalist NLP performance with a focus on reasoning, alignment, and fluency.
+Athena-3-14B was fine-tuned using the Unsloth framework on a single NVIDIA T4 GPU. The fine-tuning process spanned approximately 90 minutes over 60 epochs, utilizing a curated instruction-tuned dataset. It is tailored for generalist NLP performance with a focus on reasoning, alignment, and fluency.
 
 ## **Intended Use**
 
@@ -58,7 +58,7 @@ model = AutoModelForCausalLM.from_pretrained(
 tokenizer = AutoTokenizer.from_pretrained(model_name)
 prompt = "Explain the concept of entropy in thermodynamics."
 messages = [
-    {"role": "system", "content": "You are Maverick, an AI assistant designed to be helpful."},
+    {"role": "system", "content": "You are Athena, an AI assistant designed to be helpful."},
     {"role": "user", "content": prompt}
 ]
 text = tokenizer.apply_chat_template(
