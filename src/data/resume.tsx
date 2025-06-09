@@ -225,6 +225,32 @@ export const DATA = {
       video:
         "",
     },
+    {
+      title: "Oculis",
+      href: "",
+      dates: "Jun 2025 - Present",
+      active: true,
+      description:
+        "Oculis is a small but powerful open-source computer vision model based on YOLOv11 (Coming Soon)",
+      technologies: [
+        "Python",
+        "Low-Code",
+        "Ultralytics",
+        "Computer Vision",
+        "Research",
+        "YOLO"
+      ],
+      links: [
+        {
+          type: "Coming Soon!",
+          href: "/",
+          icon: <Icons.globe className="size-3" />,
+        },
+      ],
+      image: "/oculis-banner.png",
+      video:
+        "",
+    },
   ],
   hackathons: [
     {
