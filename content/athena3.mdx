@@ -1,0 +1,103 @@
+---
+title: "Introducng Athena-3"
+publishedAt: "2025-04-27"
+summary: "Introducng Athena-3 and R3: A family of multilingual STEM models"
+---
+# **The Athena-3 Family**
+
+*Athena generated this model card! NOTE: This is only details for the 14B model. For other models, read their model page*
+
+**Athena-3-14B** is a 14.0-billion-parameter causal language model fine-tuned from Qwen2.5-14B-Instruct. This model is designed to provide highly fluent, contextually aware, and logically sound outputs across a broad range of NLP and reasoning tasks. It balances instruction-following with generative flexibility.
+
+## **Model Details**
+
+- **Model Developer:** Aayan Mishra
+- **Model Type:** Causal Language Model
+- **Architecture:** Transformer with Rotary Position Embeddings (RoPE), SwiGLU activation, RMSNorm, Attention QKV bias, and tied word embeddings
+- **Parameters:** 14.0 billion total (12.84 billion non-embedding)
+- **Layers:** 40
+- **Attention Heads:** 40 for query and 4 for key-value (Grouped Query Attention)
+- **Vocabulary Size:** Approximately 151,646 tokens
+- **Context Length:** Supports up to 131,072 tokens
+- **Languages Supported:** Over 29 languages, including strong performance in English, Chinese, and multilingual instruction tasks
+- **License:** MIT
+
+## **Training Details**
+
+Athena-3-14B was fine-tuned using the Unsloth framework on a single NVIDIA A100 GPU. The fine-tuning process spanned approximately 90 minutes over 60 epochs, utilizing a curated instruction-tuned dataset. It is tailored for generalist NLP performance with a focus on reasoning, alignment, and fluency.
+
+## **Intended Use**
+
+Athena-3-14B is ideal for a wide variety of tasks, including:
+
+- **Instruction Following:** Handling complex prompts with step-by-step logical output
+- **Writing Assistance:** Generating essays, emails, and coherent narratives
+- **NLP Tasks:** Summarization, question answering, translation, and text classification
+- **STEM Support:** Reasoning through academic and technical content
+
+While Athena-3-14B is a versatile model, it is not intended for safety-critical applications or the handling of private, sensitive information.
+
+## **How to Use**
+
+To utilize Athena-3-14B, ensure that you have the latest version of the `transformers` library installed:
+
+```bash
+pip install transformers
+```
+
+Here's an example of how to load the Athena-3-14B model and generate a response:
+
+```python
+from transformers import AutoModelForCausalLM, AutoTokenizer
+model_name = "Spestly/Athena-3-14B"
+model = AutoModelForCausalLM.from_pretrained(
+    model_name,
+    torch_dtype="auto",
+    device_map="auto"
+)
+tokenizer = AutoTokenizer.from_pretrained(model_name)
+prompt = "Explain the concept of entropy in thermodynamics."
+messages = [
+    {"role": "system", "content": "You are Maverick, an AI assistant designed to be helpful."},
+    {"role": "user", "content": prompt}
+]
+text = tokenizer.apply_chat_template(
+    messages,
+    tokenize=False,
+    add_generation_prompt=True
+)
+model_inputs = tokenizer([text], return_tensors="pt").to(model.device)
+generated_ids = model.generate(
+    **model_inputs,
+    max_new_tokens=512
+)
+generated_ids = [
+    output_ids[len(input_ids):] for input_ids, output_ids in zip(model_inputs.input_ids, generated_ids)
+]
+response = tokenizer.batch_decode(generated_ids, skip_special_tokens=True)[0]
+print(response)
+```
+
+### **Maverick Search usage 🔍**
+
+To use this model with Maverick Search, please refer to this [repository](https://github.com/Aayan-Mishra/Maverick-Search)
+
+## **Limitations**
+
+Users should be aware of the following limitations:
+
+- **Biases:** Athena-3-14B may reflect biases from its pretraining and fine-tuning data. Outputs should be reviewed for fairness and accuracy.
+- **Knowledge Cutoff:** The model's knowledge is current as of August 2024.
+- **Multilingual Performance:** Performance varies by language, with strongest capabilities in English and aligned datasets.
+
+## **Acknowledgements**
+
+Athena-3-14B builds upon the Qwen2.5-14B foundation. Special thanks to the open-source ecosystem and Unsloth for enabling efficient fine-tuning workflows.
+
+## **License**
+
+Athena-3-14B is released under the MIT License, permitting broad use and distribution with proper attribution.
+
+## **Contact**
+
+- Email: athena@aayanmishra.com
