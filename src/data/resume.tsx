@@ -206,7 +206,7 @@ export const DATA = {
       dates: "Apr 2025 - Present",
       active: true,
       description:
-        "Maverick Search is an open-source AI search engine designed to run locally with Ollama. Maverick Search uses Exa Search API which more information can be found at exa.ai. This project is designed to be an open-source alternative to major AI search engines such as Perplexity and etc.",
+        "Maverick Search is an open-source AI search engine designed to run locally with Ollama. This project is designed to be an open-source alternative to major AI search engines such as Perplexity and etc.",
       technologies: [
         "Python",
         "Low-Code",
