@@ -42,7 +42,7 @@ export const DATA = {
       GitHub: {
         name: "GitHub",
         url: "https://github.com/Aayan-Mishra",
-        icon: Icons.github,
+        icon: Icons.globe,
 
         navbar: true,
       },
@@ -166,17 +166,22 @@ export const DATA = {
           href: "https://aayanmishra.com/blog/odysseyxl",
           icon: <Icons.globe className="size-3" />,
         },
+        {
+          type: "Weights",
+          href: "https://huggingface.co/collections/Spestly/odysseyxl-683bc2e002c1a474a83bfafb",
+          icon: <Icons.github className="size-3" />,
+        }
       ],
       image: "https://raw.githubusercontent.com/Aayan-Mishra/Images/refs/heads/main/API%20(1).png",
       video: "",
     },
     {
-      title: "Open-Neo",
-      href: "https://open-neo.vercel.app/",
-      dates: "Jan 2024 - Present",
+      title: "Athena",
+      href: "https://huggingface.co/collections/Spestly/athena-project-681857404c4a58f02fb32ad9",
+      dates: "Jan 2025 - Present",
       active: true,
       description:
-        "Open-Neo is an Australia based research lab dedicated to advancing open-source AI models",
+        "Athena is a high-performance LLM that is designed to excel in most STEM areas as well as general NLP tasks!",
       technologies: [
         "Python",
         "Low-Code",
@@ -186,39 +191,12 @@ export const DATA = {
       ],
       links: [
         {
-          type: "Website",
-          href: "https://open-neo.vercel.app",
+          type: "Model Weights",
+          href: "https://huggingface.co/collections/Spestly/athena-project-681857404c4a58f02fb32ad9",
           icon: <Icons.globe className="size-3" />,
         },
       ],
       image: "https://raw.githubusercontent.com/Aayan-Mishra/Images/refs/heads/main/Open-Neo.png",
-      video:
-        "",
-    },
-        {
-      title: "NoemaCoder",
-      href: "",
-      dates: "May 2025 - Present",
-      active: true,
-      description:
-        "NoemaCoder is a SOTA coding LLM that excels in many enviourments. Based on Bytedance-Seed's SeedCoder-8B, providing an excelent base which outperforms models such as Alibaba's QwQ-32B and Deepseek AI's Deepseek-R1",
-      technologies: [
-        "Python",
-        "Unsloth",
-        "text-to-text",
-        "Code",
-        "NLP",
-        "Research",
-        "Llama"
-      ],
-      links: [
-        {
-          type: "Read More",
-          href: "https://huggingface.co/collections/Spestly/noema-1-680b09e8f1f79700ffa03e3e",
-          icon: <Icons.globe className="size-3" />,
-        },
-      ],
-      image: "https://raw.githubusercontent.com/Aayan-Mishra/www.aayanmishra.com/refs/heads/main/public/noema.png",
       video:
         "",
     },
