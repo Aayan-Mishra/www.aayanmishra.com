@@ -226,12 +226,12 @@ export const DATA = {
         "",
     },
     {
-      title: "Oculis",
+      title: "Senna",
       href: "",
       dates: "Jun 2025 - Present",
       active: true,
       description:
-        "Oculis is a small but powerful open-source computer vision model based on YOLOv11 (Coming Soon)",
+        "Senna is a small but powerful open-source computer vision model based on YOLOv11 for detecting Formula 1 Cars",
       technologies: [
         "Python",
         "Low-Code",
@@ -242,12 +242,12 @@ export const DATA = {
       ],
       links: [
         {
-          type: "Coming Soon!",
-          href: "/",
+          type: "Try Senna",
+          href: "https://senna.aayanmishra.com",
           icon: <Icons.globe className="size-3" />,
         },
       ],
-      image: "/oculis-banner.png",
+      image: "/senna-banner.png",
       video:
         "",
     },
