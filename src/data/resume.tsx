@@ -170,7 +170,12 @@ export const DATA = {
           type: "Weights & Code",
           href: "https://github.com/Aayan-Mishra/OdysseyXL/tree/main",
           icon: <Icons.github className="size-3" />,
-        }
+        },
+        {
+          type: "Playground",
+          href: "https://spestly-odysseyxlplayground.hf.space",
+          icon: <Icons.globe className="size-3" />,
+        },
       ],
       image: "https://raw.githubusercontent.com/Aayan-Mishra/Images/refs/heads/main/API%20(1).png",
       video: "",
@@ -193,6 +198,11 @@ export const DATA = {
         {
           type: "Model Weights",
           href: "https://huggingface.co/collections/Spestly/athena-project-681857404c4a58f02fb32ad9",
+          icon: <Icons.github className="size-3" />,
+        },
+        {
+          type: "Playground",
+          href: "https://spestly-athenaplayground.hf.space/",
           icon: <Icons.globe className="size-3" />,
         },
       ],
