@@ -78,13 +78,13 @@ export const DATA = {
 
   work: [
    {
-      company: "Open-Neo" + ' ',
-      href: "https://open-neo.vercel.app/",
+      company: "Apexion AI" + ' ',
+      href: "https://apexionai.vercel.app/",
       badges: [],
       location: "Remote",
-      title: "Founder &  Transformers Model Engineer",
-      logoUrl: "/Noema.jpg",
-      start: "Jan 2025",
+      title: "Founder & Head of Post Training",
+      logoUrl: "https://cdn-avatars.huggingface.co/v1/production/uploads/669c7b63fe9496b3c680ed87/gqxkgkckwI3m7WInlaG4s.png",
+      start: "July 2025",
       end: "Present",
       description:
         "",
