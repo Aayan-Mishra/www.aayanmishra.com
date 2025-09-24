@@ -78,12 +78,12 @@ export const DATA = {
 
   work: [
    {
-      company: "Apexion AI" + ' ',
-      href: "https://apexionai.vercel.app/",
+      company: "Loom Labs" + ' ',
+      href: "https://loomlabs.vercel.app/",
       badges: [],
       location: "Remote",
       title: "Founder & Head of Post Training",
-      logoUrl: "https://cdn-avatars.huggingface.co/v1/production/uploads/669c7b63fe9496b3c680ed87/gqxkgkckwI3m7WInlaG4s.png",
+      logoUrl: "LoomLabs.png",
       start: "July 2025",
       end: "Present",
       description:
@@ -264,18 +264,34 @@ export const DATA = {
   ],
   hackathons: [
     {
-      title: "Vera-V1: Enhancing Multilingual Language Models with Group Relative Policy Optimisation (GRPO)",
+      title: "Leveraging AI Model Systems to Transform Online Education: The Victor Academy Approach",
       dates: "In Progress",
       location: "",
       description:
-        "This is a research project which I led the development of the Vera model family. The purpose of this research project was to analyse how we can improve non-reasoning multilingual LLMs through reinforcement specifically Group Relative Policy Optimisation (GRPO).",
+        "This research project explored the application of AI model systems to enhance online education. I led the design and development of intelligent learning tools under the Victor Academy framework, focusing on adaptive assessment, personalized content delivery, and progress tracking through AI. The purpose of this project was to investigate how modern LLM-based systems can transform digital education environments by improving accessibility, scalability, and learner outcomes.",
       image:
-        "https://cdn-avatars.huggingface.co/v1/production/uploads/669c7b63fe9496b3c680ed87/lwgIepa79zpWARASx5n3e.png",
+        "LoomLabs.png",
+      links: [
+        {
+          title: "Victor Academy",
+          icon: <Icons.github className="h-4 w-4" />,
+          href: "https://victor.aayanmishra.com/",
+        },
+      ],
+    },
+    {
+      title: "Loom-V1: Enhancing Multilingual Language Models with Group Relative Policy Optimisation (GRPO)",
+      dates: "Planned",
+      location: "",
+      description:
+        "This is a research project which I led the development of the Loom model family. The purpose of this research project was to analyse how we can improve non-reasoning multilingual LLMs through reinforcement specifically Group Relative Policy Optimisation (GRPO).",
+      image:
+        "LoomLabs.png",
       links: [
         {
           title: "Models",
           icon: <Icons.github className="h-4 w-4" />,
-          href: "https://huggingface.co/VeraLabs",
+          href: "https://huggingface.co/Loom-Labs",
         },
       ],
     },
