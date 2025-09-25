@@ -11,7 +11,7 @@ export const DATA = {
     "Artifical Intelligence/Machine Learning Developer & Researcher",
   summary:
     "Hey there! I'm Aayan and I work on building AI projects, from finetuning models like OdysseyXL to developing systems such as Maverick Search. Whether its deep learning, experimenting with model optimization, or creating something entirely new, I'm always exploring something. When I'm not coding or training models, you'll probably find me watching Formula 1.",
-  avatarUrl: "https://avatars.githubusercontent.com/u/176997922?s=400&u=1d5678bbadc68b20b829f64106c8074475a03e7b&v=4",
+  avatarUrl: "me-final.png",
   skills: [
     "Python",
     "Vercel",
