@@ -29,7 +29,8 @@ export const DATA = {
     "Transformers",
     "Diffusers",
     "PEFT",
-    "Jupyter Notebooks"
+    "Jupyter Notebooks",
+    "Supabase",
   ],
   navbar: [
     { href: "/", icon: HomeIcon, label: "Home" },
@@ -178,6 +179,35 @@ export const DATA = {
         },
       ],
       image: "https://raw.githubusercontent.com/Aayan-Mishra/Images/refs/heads/main/API%20(1).png",
+      video: "",
+    },
+    {
+      title: "Victor Academy",
+      href: "",
+      dates: "August 2025 - Present",
+      active: true,
+      description:
+        "AI-Powered Education platform ranging from High-school to University",
+      technologies: [
+        "Google Vertex AI",
+        "Full-stack",
+        "Gemini Schemas",
+        "Cloud Training",
+        "Python",
+      ],
+      links: [
+        {
+          type: "Website",
+          href: "https://victor.aayanmishra.com/",
+          icon: <Icons.globe className="size-3" />,
+        },
+        {
+          type: "Preprint",
+          href: "https://github.com/loomlabsml/VictorAcademy/blob/main/preprint.pdf",
+          icon: <Icons.github className="size-3" />,
+        },
+      ],
+      image: "https://raw.githubusercontent.com/Aayan-Mishra/Images/refs/heads/main/victor.png",
       video: "",
     },
     {
