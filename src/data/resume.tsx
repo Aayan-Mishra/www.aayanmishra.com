@@ -103,6 +103,24 @@ export const DATA = {
         "Cohere Labs – Open Science Community is a collaborative research initiative supported by Cohere Labs, aimed at advancing machine learning through open science. The community brings together independent researchers, engineers, students, and practitioners from around the world to contribute to shared projects in areas such as natural language processing, large language models, evaluation frameworks, and responsible AI. Projects hosted under the CohereLabsCommunity Hugging Face organization reflect the collective efforts of this global network, emphasizing transparency, reproducibility, and inclusive access to cutting-edge AI research.",
     },
   ],
+  events: [
+    {
+      title: "AI Engineer Code Summit — Selected Attendee",
+      dates: "November 2025",
+      location: "The TimesCenter, New York",
+      description:
+        "Invite-only global event recognizing emerging leaders in AI engineering and research. Selected for contributions to model architecture design, multimodal learning systems, and open-weight fine-tuning.",
+      image:
+        "https://pbs.twimg.com/profile_images/1669807115815493633/4MFvljkc_400x400.png",
+      links: [
+        {
+          title: "Website",
+          icon: <Icons.globe className="h-4 w-4" />,
+          href: "https://www.ai.engineer/code",
+        },
+      ],
+    },
+  ],
   education: [
     {
       school: "Harvard University - CS50x: Introduction to Computer Science",
