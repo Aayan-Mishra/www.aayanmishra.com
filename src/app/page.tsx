@@ -84,13 +84,15 @@ export default function Page() {
               key={event.title}
               delay={BLUR_FADE_DELAY * 8 + id * 0.05}
             >
-              <HackathonCard
+              <ResumeCard
+                key={event.title}
+                logoUrl={event.image}
+                altText={event.title}
                 title={event.title}
+                subtitle={event.location}
+                href={event.links?.[0]?.href}
+                period={event.dates}
                 description={event.description}
-                location={event.location}
-                dates={event.dates}
-                image={event.image}
-                links={event.links}
               />
             </BlurFade>
           ))}
