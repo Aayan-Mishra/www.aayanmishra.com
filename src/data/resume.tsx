@@ -78,18 +78,6 @@ export const DATA = {
   },
 
   work: [
-   {
-      company: "Loom Labs" + ' ',
-      href: "https://loomlabs.vercel.app/",
-      badges: [],
-      location: "Remote",
-      title: "Founder & Head of Post Training",
-      logoUrl: "LoomLabs.png",
-      start: "July 2025",
-      end: "Present",
-      description:
-        "",
-    },
     {
       company: "Cohere Labs - Open Science" + ' ',
       href: "https://cohere.com/research/open-science",
@@ -100,7 +88,7 @@ export const DATA = {
       start: "May 2025",
       end: "Present",
       description:
-        "Cohere Labs – Open Science Community is a collaborative research initiative supported by Cohere Labs, aimed at advancing machine learning through open science. The community brings together independent researchers, engineers, students, and practitioners from around the world to contribute to shared projects in areas such as natural language processing, large language models, evaluation frameworks, and responsible AI. Projects hosted under the CohereLabsCommunity Hugging Face organization reflect the collective efforts of this global network, emphasizing transparency, reproducibility, and inclusive access to cutting-edge AI research.",
+        "Contributed to Global MMLU Lite, a multilingual benchmark evaluating large language models on reasoning and knowledge across diverse languages. My work focused on English → Oriya (Odia) translation, ensuring linguistic accuracy, cultural relevance, and preservation of reasoning intent in benchmark questions. This included auditing items that did not translate cleanly, flagging ambiguity, and maintaining consistency to support fair and reliable multilingual evaluation.",
     },
   ],
   events: [
