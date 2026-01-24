@@ -112,11 +112,19 @@ export const DATA = {
   education: [
     {
       school: "Harvard University - CS50x: Introduction to Computer Science",
-      href: "https://cs50.harvard.edu/x/2025/",
+      href: "https://cs50.harvard.edu/x/2026/",
       degree: "This is CS50x , Harvard University's introduction to the intellectual enterprises of computer science and the art of programming for majors and non-majors alike, with or without prior programming experience. An entry-level course taught by David J. Malan, CS50x teaches students how to think algorithmically and solve problems efficiently. Topics include abstraction, algorithms, data structures, encapsulation, resource management, security, software engineering, and web development. Languages include C, Python, SQL, and JavaScript plus CSS and HTML. Problem sets inspired by real-world domains of biology, cryptography, finance, forensics, and gaming.",
       logoUrl: "https://lh3.googleusercontent.com/fASk3OpbgUcnw_-X_34NDtnPXwg82zpN_uPCulHuoJwli63r9SvHdD0x8IHMvvM0MHWGNqdD_nz04orpBmLDy38RwN4HabEVWDcptpwWPjNGAAAdDUyIRicfwJURMEarGrnH-EyZxlnTNY8VAuiirDY",
-      start: "2025",
+      start: "2026",
       end: "Present",
+    },
+    {
+      school: "Anthropic - Claude Code in Action",
+      href: "https://verify.skilljar.com/c/zeia6huuexu4",
+      degree: "This course provides comprehensive training on using Claude Code for software development tasks, covering the underlying architecture of AI coding assistants, practical implementation techniques, and advanced integration strategies. You'll learn about Claude Code's context management approaches, and how to extend functionality through MCP servers and GitHub integration.",
+      logoUrl: "https://images.yourstory.com/cs/images/companies/anthropicresearchlogo-1699260041449.jpg?fm=auto&ar=1%3A1&mode=fill&fill=solid&fill-color=fff&format=auto&w=1920&q=75",
+      start: "2026",
+      end: "2026",
     },
     {
       school: "Hugging Face - LLM Course",
