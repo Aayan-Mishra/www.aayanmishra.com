@@ -83,12 +83,12 @@ export const DATA = {
       href: "https://cohere.com/research/open-science",
       badges: [],
       location: "Remote",
-      title: "Open Science Developer & Researcher",
+      title: "Open Science Research Engineer",
       logoUrl: "/cohere-pfp.png",
       start: "May 2025",
       end: "Present",
       description:
-        "Contributed to Global MMLU Lite, a multilingual benchmark evaluating large language models on reasoning and knowledge across diverse languages. My work focused on English → Oriya (Odia) translation, ensuring linguistic accuracy, cultural relevance, and preservation of reasoning intent in benchmark questions. This included auditing items that did not translate cleanly, flagging ambiguity, and maintaining consistency to support fair and reliable multilingual evaluation.",
+        "Contributed to Global MMLU Lite, a multilingual benchmark evaluating large language models on reasoning and knowledge across diverse languages. My work focused on English → Oriya (Odia) translation, ensuring linguistic accuracy, cultural relevance, and preservation of reasoning intent in benchmark questions. This included auditing items that did not translate cleanly, flagging ambiguity, and maintaining consistency to support fair and reliable multilingual evaluation. Additonally building scalable translating pipelines.",
     },
   ],
   events: [
